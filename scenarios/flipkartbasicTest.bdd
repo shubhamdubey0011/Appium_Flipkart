@@ -1,0 +1,17 @@
+
+
+SCENARIO: Test Flipkart
+META-DATA: {"description":"Basic verification of flipkart app","groups":["P2"]}
+	
+	Given user is on the landinPage and selects close signup
+	Then is user in on the homepage and searches for 'ipad'
+	Then user sorts the produts in low to high price order
+	Then user selects the prdouct from the list of available products
+	Then user adds the product to its  cart
+	Then user navigates to cart page
+	
+	
+	
+	
+	
+END

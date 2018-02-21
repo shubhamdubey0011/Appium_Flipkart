@@ -1,0 +1,64 @@
+12:27:16 scenario.file.loc[Ljava.lang.String;@1ad282e0
+12:27:16 loading BDD file: scenarios/flipkartbasicTest.bdd
+12:27:16 total test found: 1
+12:27:16 
+
+Executing scenario: Test Flipkart - Basic verification of flipkart app
+12:27:16 pkg: com.qmetry.qaf.automation.step
+12:27:16 pkg: com.appiumdemo
+12:27:16 Invoking Teststep: Given user is on the landinPage and selects close signup
+12:27:33 Completed Teststep: Given user is on the landinPage and selects close signup
+12:27:33 Invoking Teststep: Then is user in on the homepage and searches for 'ipad' with arguments: [ipad]
+12:27:44 Completed Teststep: Then is user in on the homepage and searches for 'ipad' with arguments: [ipad]
+12:27:44 Invoking Teststep: Then user sorts the produts in low to high price order
+12:27:48 Completed Teststep: Then user sorts the produts in low to high price order
+12:27:48 Invoking Teststep: Then user selects the prdouct from the list of available products
+12:27:55 Completed Teststep: Then user selects the prdouct from the list of available products
+12:27:55 Invoking Teststep: Then user adds the product to its  cart
+12:27:57 Failure Teststep: Then user adds the product to its  cart
+java.lang.NullPointerException
+	at java.lang.String.indexOf(String.java:1718)
+	at java.lang.String.indexOf(String.java:1698)
+	at org.hamcrest.core.StringContains.evalSubstringOf(StringContains.java:18)
+	at org.hamcrest.core.SubstringMatcher.matchesSafely(SubstringMatcher.java:19)
+	at org.hamcrest.core.SubstringMatcher.matchesSafely(SubstringMatcher.java:6)
+	at org.hamcrest.TypeSafeMatcher.matches(TypeSafeMatcher.java:65)
+	at com.qmetry.qaf.automation.util.Validator.verifyThat(Validator.java:41)
+	at com.appiumdemo.Pages.ProductdetailTestPage.verifyProductDetails(ProductdetailTestPage.java:54)
+	at com.appiumdemo.StepsBackLog.userAddsTheProductToItsCart(StepsBackLog.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+12:27:57 Completed Teststep: Then user adds the product to its  cart
+12:27:57 Competed scenario: Test Flipkart with status FAILURE

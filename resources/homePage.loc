@@ -1,0 +1,5 @@
+com.flipkart.androididsearchautocompletetextview = {\"locator\":\"id=com.flipkart.android:id/search_widget_textbox\",\"desc\":\"EditText for Search for Products Brands..\"}
+com.flipkart.androidacsbltyid.productsearchbox = {\"locator\":\"accessibility id=Search for Products, Brands\",\"desc\":\"Search for Products\"}
+com.flipkart.sortbyprice.lowtohigh = {\"locator\":\"id=com.flipkart.android:id/sort_by_layout\",\"desc\":\"sort by low to high price\"}
+com.flipkart.list.option.ipadInTablets = {\"locator\":\"xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView\",\"desc\":\"ipads in Tablets\"}
+com.flipkart.filter.price.lowToHigh = {\"locator\":\"xpath=//android.widget.TextView[@text='Price -- Low to High']\",\"desc\":\"Price Low to high filter\"}

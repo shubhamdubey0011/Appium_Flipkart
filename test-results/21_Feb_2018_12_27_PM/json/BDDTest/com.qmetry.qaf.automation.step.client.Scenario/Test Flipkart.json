@@ -1,0 +1,719 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userIsOnTheLandinPageAndSelectsCloseSignup",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[id: 1]",
+          "subLogs": [],
+          "duration": 1961
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 551
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "isUserInOnTheHomepageAndSearchesFor",
+      "args": [
+        "[ipad]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/search_widget_textbox, using=id}"
+          ],
+          "result": "[id: 4]",
+          "subLogs": [],
+          "duration": 2798
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_widget_textbox, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/search_widget_textbox",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 96
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_widget_textbox, using=id}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/search_widget_textbox",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 181
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Search for Products, Brands, using=accessibility id}"
+          ],
+          "result": "[id: 7]",
+          "subLogs": [],
+          "duration": 1587
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Search for Products, Brands, using=accessibility id}"
+          ],
+          "result": "[id: 8]",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Search for Products, Brands, using=accessibility id}"
+          ],
+          "result": "[id: 9]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"9\",\"value\":[\"ipad\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 4765
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView, using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 95 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12785', ip: '192.168.148.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.flipkart.android, deviceScreenSize=1080x1920, networkConnectionEnabled=true, AutomationName=appium, warnings={}, databaseEnabled=false, deviceName=192.168.148.101:5555, platform=LINUX, deviceUDID=192.168.148.101:5555, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, browser_name=, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, browser_name=, AutomationName=appium, appium-version=4.1.2, newCommandTimeout=120, takesScreenshot=true, javascriptEnabled=True, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.88.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=True, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f21a7cdf-6fb7-4627-8543-89fa4600938b\n*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView}",
+          "subLogs": [],
+          "duration": 97
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView, using=xpath}"
+          ],
+          "result": "id: 10",
+          "subLogs": [],
+          "duration": 659
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView",
+            "{\"id\":\"10\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 170
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSortsTheProdutsInLowToHighPriceOrder",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/sort_by_layout, using=id}"
+          ],
+          "result": "[id: 11]",
+          "subLogs": [],
+          "duration": 2188
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/sort_by_layout, using=id}"
+          ],
+          "result": "id: 12",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/sort_by_layout",
+            "{\"id\":\"12\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/sort_by_layout, using=id}"
+          ],
+          "result": "id: 13",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/sort_by_layout",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 462
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.TextView[@text='Price -- Low to High'], using=xpath}"
+          ],
+          "result": "[id: 14]",
+          "subLogs": [],
+          "duration": 654
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Price -- Low to High'], using=xpath}"
+          ],
+          "result": "id: 15",
+          "subLogs": [],
+          "duration": 65
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Price -- Low to High']",
+            "{\"id\":\"15\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Price -- Low to High'], using=xpath}"
+          ],
+          "result": "id: 16",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Price -- Low to High']",
+            "{\"id\":\"16\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 577
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsThePrdouctFromTheListOfAvailableProducts",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc=\"product_list\"], using=xpath}"
+          ],
+          "result": "[id: 17, id: 18, id: 19]",
+          "subLogs": [],
+          "duration": 1266
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc=\"product_list\"], using=xpath}"
+          ],
+          "result": "[id: 20, id: 21, id: 22]",
+          "subLogs": [],
+          "duration": 152
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"20\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]\"}"
+          ],
+          "result": "findChildElements:[id: 23]",
+          "subLogs": [],
+          "duration": 148
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"20\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]\"}"
+          ],
+          "result": "findChildElement:id: 24",
+          "subLogs": [],
+          "duration": 101
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]",
+            "{\"id\":\"24\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc=\"product_list\"], using=xpath}"
+          ],
+          "result": "[id: 25, id: 26, id: 27]",
+          "subLogs": [],
+          "duration": 75
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"25\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]\"}"
+          ],
+          "result": "findChildElements:[id: 28]",
+          "subLogs": [],
+          "duration": 45
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"25\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]\"}"
+          ],
+          "result": "findChildElement:id: 29",
+          "subLogs": [],
+          "duration": 161
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]",
+            "{\"id\":\"29\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc=\"product_list\"], using=xpath}"
+          ],
+          "result": "[id: 30, id: 31, id: 32]",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"30\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]\"}"
+          ],
+          "result": "findChildElement:id: 33",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]",
+            "{\"id\":\"33\"}"
+          ],
+          "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+          "subLogs": [],
+          "duration": 58
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"30\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]\"}"
+          ],
+          "result": "findChildElement:id: 34",
+          "subLogs": [],
+          "duration": 64
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]",
+            "{\"id\":\"34\"}"
+          ],
+          "result": "getElementText:Space Grey",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"31\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]\"}"
+          ],
+          "result": "findChildElement:id: 35",
+          "subLogs": [],
+          "duration": 72
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]",
+            "{\"id\":\"35\"}"
+          ],
+          "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"31\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]\"}"
+          ],
+          "result": "findChildElement:id: 36",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]",
+            "{\"id\":\"36\"}"
+          ],
+          "result": "getElementText:Silver",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"32\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]\"}"
+          ],
+          "result": "findChildElement:id: 37",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]",
+            "{\"id\":\"37\"}"
+          ],
+          "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"32\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]\"}"
+          ],
+          "result": "findChildElement:id: 38",
+          "subLogs": [],
+          "duration": 67
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]",
+            "{\"id\":\"38\"}"
+          ],
+          "result": "getElementText:Gold",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc=\"product_list\"], using=xpath}"
+          ],
+          "result": "id: 39",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"39\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]\"}"
+          ],
+          "result": "findChildElement:id: 40",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]",
+            "{\"id\":\"40\"}"
+          ],
+          "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc=\"product_list\"], using=xpath}"
+          ],
+          "result": "id: 41",
+          "subLogs": [],
+          "duration": 59
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"41\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]\"}"
+          ],
+          "result": "findChildElement:id: 42",
+          "subLogs": [],
+          "duration": 80
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]",
+            "{\"id\":\"42\"}"
+          ],
+          "result": "getElementText:Space Grey",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.LinearLayout[@content-desc=\"product_list\"], using=xpath}"
+          ],
+          "result": "id: 43",
+          "subLogs": [],
+          "duration": 69
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout[@content-desc=\"product_list\"]",
+            "{\"using\":\"xpath\",\"id\":\"43\",\"value\":\".//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]\"}"
+          ],
+          "result": "findChildElement:id: 44",
+          "subLogs": [],
+          "duration": 50
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]",
+            "{\"id\":\"44\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 152
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userAddsTheProductToItsCart",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)'], using=xpath}"
+          ],
+          "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 200 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12785', ip: '192.168.148.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.flipkart.android, deviceScreenSize=1080x1920, networkConnectionEnabled=true, AutomationName=appium, warnings={}, databaseEnabled=false, deviceName=192.168.148.101:5555, platform=LINUX, deviceUDID=192.168.148.101:5555, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, browser_name=, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.activity.HomeFragmentHolderActivity, browser_name=, AutomationName=appium, appium-version=4.1.2, newCommandTimeout=120, takesScreenshot=true, javascriptEnabled=True, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.88.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=True, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: f21a7cdf-6fb7-4627-8543-89fa4600938b\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)']}",
+          "subLogs": [],
+          "duration": 200
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//android.widget.TextView[@text='Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)'], using=xpath}"
+          ],
+          "result": "id: 45",
+          "subLogs": [],
+          "duration": 639
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.TextView[@text='Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)']",
+            "{\"id\":\"45\"}"
+          ],
+          "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)",
+          "subLogs": [],
+          "duration": 40
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user navigates to cart page",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is on the landinPage and selects close signup",
+      "type": "TestStepPass",
+      "duration": 16232,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then is user in on the homepage and searches for 'ipad'",
+      "type": "TestStepPass",
+      "duration": 11540,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user sorts the produts in low to high price order",
+      "type": "TestStepPass",
+      "duration": 4101,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user selects the prdouct from the list of available products",
+      "type": "TestStepPass",
+      "duration": 6771,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;3&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/21_Feb_2018_12_27_PM/img/Test Flipkart_359q848pbef628247.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user adds the product to its  cart",
+      "type": "TestStepFail",
+      "screenshot": "test-results/21_Feb_2018_12_27_PM/img/Test Flipkart_mo6qspm7w05y28248.png",
+      "duration": 1886,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user navigates to cart page",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat .Then user adds the product to its  cart(scenarios/flipkartbasicTest.bdd:10)\r\n\tat java.lang.String.indexOf(String.java:1718)\r\n\tat java.lang.String.indexOf(String.java:1698)\r\n\tat org.hamcrest.core.StringContains.evalSubstringOf(StringContains.java:18)\r\n\tat org.hamcrest.core.SubstringMatcher.matchesSafely(SubstringMatcher.java:19)\r\n\tat org.hamcrest.core.SubstringMatcher.matchesSafely(SubstringMatcher.java:6)\r\n\tat org.hamcrest.TypeSafeMatcher.matches(TypeSafeMatcher.java:65)\r\n\tat com.qmetry.qaf.automation.util.Validator.verifyThat(Validator.java:41)\r\n\tat com.appiumdemo.Pages.ProductdetailTestPage.verifyProductDetails(ProductdetailTestPage.java:54)\r\n\tat com.appiumdemo.StepsBackLog.userAddsTheProductToItsCart(StepsBackLog.java:56)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

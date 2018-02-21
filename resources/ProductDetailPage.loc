@@ -1,0 +1,4 @@
+productdetail.page.productname = {\"locator\":\"xpath=//android.widget.TextView[@text='Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)']\",\"desc\":\"product name\"}
+productdetail.page.productprice = {\"locator\":\"xpath=//android.widget.LinearLayout[@resource-id='com.flipkart.android:id/price_layout']/android.widget.TextView[2]\",\"desc\":\"product price\"}
+productdetail.page.addtocart.btn = {\"locator\":\"xpath=//android.widget.TextView[@text='ADD TO CART']\",\"desc\":\"Add to cart button\"}
+productdetail.page.gotocart.btn = {\"locator\":\"xpath=//android.widget.TextView[@text='GO TO CART']\",\"desc\":\"go to cart button\"}

@@ -1,0 +1,24 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Basic verification of flipkart app",
+        "groups": [
+          "P2"
+        ],
+        "lineNo": 3,
+        "name": "Test Flipkart",
+        "referece": "scenarios/flipkartbasicTest.bdd",
+        "sign": "scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519104602418,
+      "duration": 44191,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

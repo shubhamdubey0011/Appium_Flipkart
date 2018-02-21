@@ -1,0 +1,17 @@
+11:07:17 scenario.file.loc[Ljava.lang.String;@1ad282e0
+11:07:17 loading BDD file: scenarios/flipkartbasicTest.bdd
+11:07:17 total test found: 1
+11:07:18 
+
+Executing scenario: Test Flipkart - Basic verification of flipkart app
+11:07:18 pkg: com.qmetry.qaf.automation.step
+11:07:18 pkg: com.appiumdemo
+11:07:18 Invoking Teststep: Given user is on the landinPage and selects close signup
+11:07:34 Completed Teststep: Given user is on the landinPage and selects close signup
+11:07:34 Invoking Teststep: Then is user in on the homepage and searches for 'ipad' with arguments: [ipad]
+11:07:46 Completed Teststep: Then is user in on the homepage and searches for 'ipad' with arguments: [ipad]
+11:07:46 Invoking Teststep: Then user sorts the produts in low to high price order
+11:07:51 Completed Teststep: Then user sorts the produts in low to high price order
+11:07:51 Invoking Teststep: Then user selects the prdouct from the list of available products
+11:07:57 Completed Teststep: Then user selects the prdouct from the list of available products
+11:07:57 Competed scenario: Test Flipkart with status SUCESS

@@ -1,0 +1,181 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userIsOnTheLandinPageAndSelectsCloseSignup",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "[id: 1]",
+          "subLogs": [],
+          "duration": 1376
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 67
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/btn_skip, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 63
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/btn_skip",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 555
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "isUserInOnTheHomepageAndSearchesFor",
+      "args": [
+        "[ipad]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.flipkart.android:id/search_widget_textbox, using=id}"
+          ],
+          "result": "[id: 4]",
+          "subLogs": [],
+          "duration": 2976
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_widget_textbox, using=id}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.id: com.flipkart.android:id/search_widget_textbox",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 135
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.flipkart.android:id/search_widget_textbox, using=id}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.flipkart.android:id/search_widget_textbox",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 169
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Search for Products, Brands, using=accessibility id}"
+          ],
+          "result": "[id: 7]",
+          "subLogs": [],
+          "duration": 1591
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Search for Products, Brands, using=accessibility id}"
+          ],
+          "result": "[id: 8]",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"8\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Search for Products, Brands, using=accessibility id}"
+          ],
+          "result": "[id: 9]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"9\",\"value\":[\"ipad\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 4764
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is on the landinPage and selects close signup",
+      "type": "TestStepPass",
+      "duration": 12907,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then is user in on the homepage and searches for 'ipad'",
+      "type": "TestStepPass",
+      "duration": 9842,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

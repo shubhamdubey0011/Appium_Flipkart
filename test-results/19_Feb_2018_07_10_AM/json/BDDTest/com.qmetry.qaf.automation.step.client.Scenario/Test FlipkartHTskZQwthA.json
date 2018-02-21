@@ -1,0 +1,47 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userIsOnTheLandinPageAndSelectsCloseSignup",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When clicks on view-all button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is on the landinPage and selects close signup",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 7,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When clicks on view-all button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat .Given user is on the landinPage and selects close signup(scenarios/flipkartbasicTest.bdd:6)\r\n\tat com.appiumdemo.Pages.LandingTestPage.verifyCloseBtn(LandingTestPage.java:25)\r\n\tat com.appiumdemo.StepsBackLog.userIsOnTheLandinPageAndSelectsCloseSignup(StepsBackLog.java:19)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

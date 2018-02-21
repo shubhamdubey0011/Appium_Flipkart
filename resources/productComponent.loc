@@ -1,0 +1,2 @@
+product.name = {\"locator\":\"xpath=.//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[1]\",\"desc\":\"product Name\"}
+product.color.Type = {\"locator\":\"xpath=.//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView[2]\",\"desc\":\"product color\"}

@@ -1,0 +1,150 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Basic verification of flipkart app",
+        "groups": [
+          "P2"
+        ],
+        "lineNo": 3.0,
+        "name": "Test Flipkart",
+        "referece": "scenarios/flipkartbasicTest.bdd",
+        "sign": "scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519024323660,
+      "duration": 415,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Basic verification of flipkart app",
+        "groups": [
+          "P2"
+        ],
+        "lineNo": 3.0,
+        "name": "Test Flipkart",
+        "referece": "scenarios/flipkartbasicTest.bdd",
+        "resultFileName": "Test FlipkartYcaWiTJRlG",
+        "sign": "scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519024550484,
+      "duration": 413,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Basic verification of flipkart app",
+        "groups": [
+          "P2"
+        ],
+        "lineNo": 3.0,
+        "name": "Test Flipkart",
+        "referece": "scenarios/flipkartbasicTest.bdd",
+        "resultFileName": "Test FlipkartHdLDMskBrT",
+        "sign": "scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519024702061,
+      "duration": 345,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Basic verification of flipkart app",
+        "groups": [
+          "P2"
+        ],
+        "lineNo": 3.0,
+        "name": "Test Flipkart",
+        "referece": "scenarios/flipkartbasicTest.bdd",
+        "resultFileName": "Test FlipkartXCigoUisld",
+        "sign": "scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519024858802,
+      "duration": 336,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Basic verification of flipkart app",
+        "groups": [
+          "P2"
+        ],
+        "lineNo": 3.0,
+        "name": "Test Flipkart",
+        "referece": "scenarios/flipkartbasicTest.bdd",
+        "resultFileName": "Test FlipkartAcfjvIfNOe",
+        "sign": "scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519025038141,
+      "duration": 349,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Basic verification of flipkart app",
+        "groups": [
+          "P2"
+        ],
+        "lineNo": 3.0,
+        "name": "Test Flipkart",
+        "referece": "scenarios/flipkartbasicTest.bdd",
+        "resultFileName": "Test FlipkartHTskZQwthA",
+        "sign": "scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519025162756,
+      "duration": 332,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Basic verification of flipkart app",
+        "groups": [
+          "P2"
+        ],
+        "lineNo": 3,
+        "name": "Test Flipkart",
+        "referece": "scenarios/flipkartbasicTest.bdd",
+        "resultFileName": "Test FlipkartwxRXqzKKYG",
+        "sign": "scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519025286448,
+      "duration": 343,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

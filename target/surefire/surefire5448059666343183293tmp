@@ -1,0 +1,14 @@
+#surefire
+#Wed Feb 21 13:41:09 IST 2018
+selenium.screenshots.dir=test-results/21_Feb_2018_08_11_AM/img
+json.report.dir=test-results/21_Feb_2018_08_11_AM/json
+outputDir=test-results/21_Feb_2018_08_11_AM
+log4j.configuration=file\:///C\:\\Users\\shubham.dubey\\QASWorkspace\\AppiumDemo/resources/log4j.properties
+selenium.screenshots.relative.path=../img
+org.uncommons.reportng.xml-dialect=testng
+user.dir=C\:\\Users\\shubham.dubey\\QASWorkspace\\AppiumDemo
+localRepository=C\:\\Users\\shubham.dubey\\.m2\\repository
+basedir=C\:\\Users\\shubham.dubey\\QASWorkspace\\AppiumDemo
+test.results.dir=test-results/21_Feb_2018_08_11_AM/html
+org.uncommons.reportng.escape-output=false
+json.report.root.dir=test-results

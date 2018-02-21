@@ -1,0 +1,48 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userIsOnTheLandinPageAndSelectsCloseSignup",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When clicks on view-all button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is on the landinPage and selects close signup",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 9,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "com.google.common.base.Preconditions.checkArgument(ZLjava/lang/String;J)V",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When clicks on view-all button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkArgument(ZLjava/lang/String;J)V\r\n\tat .Given user is on the landinPage and selects close signup(scenarios/flipkartbasicTest.bdd:6)\r\n\tat org.openqa.selenium.support.ui.Duration.<init>(Duration.java:40)\r\n\tat org.openqa.selenium.support.ui.FluentWait.<clinit>(FluentWait.java:71)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:405)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:198)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:1)\r\n\tat com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:86)\r\n\tat com.qmetry.qaf.automation.ui.AbstractTestPage.<init>(AbstractTestPage.java:93)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:62)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverBaseTestPage.<init>(WebDriverBaseTestPage.java:58)\r\n\tat com.appiumdemo.Pages.LandingTestPage.<init>(LandingTestPage.java:8)\r\n\tat com.appiumdemo.StepsBackLog.userIsOnTheLandinPageAndSelectsCloseSignup(StepsBackLog.java:19)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

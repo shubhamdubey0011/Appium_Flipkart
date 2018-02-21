@@ -1,0 +1,1 @@
+product.search.Parent.Component = {\"locator\":\"xpath=//android.widget.LinearLayout[@content-desc=\\\"product_list\\\"]\",\"desc\":\"parent product item\"}

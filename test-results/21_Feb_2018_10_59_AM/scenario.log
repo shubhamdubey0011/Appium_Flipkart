@@ -1,0 +1,7 @@
+10:59:03 scenario.file.loc[Ljava.lang.String;@1ad282e0
+10:59:03 loading BDD file: scenarios/flipkartbasicTest.bdd
+10:59:03 total test found: 1
+10:59:04 
+
+Executing scenario: Test Flipkart - Basic verification of flipkart app
+10:59:04 pkg: com.qmetry.qaf.automation.step

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on the landinPage and selects close signup</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then is user in on the homepage and searches for 'ipad'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user sorts the produts in low to high price order</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user selects the prdouct from the list of available products</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;3&gt; was greater than &lt;0&gt; <a href="../img/Test Flipkart_u9l0cepotl1729195.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user adds the product to its  cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>product Name verification
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)" <a href="../img/Test Flipkart_1wdiwvkh7fx2k29196.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user navigates to cart page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>carts-product Name verification
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)" <a href="../img/Test Flipkart_1my72fldpc0ip29197.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="65341" started-at="2018-02-21T09:21:19Z" finished-at="2018-02-21T09:22:25Z">
+    <groups>
+      <group name="P2">
+        <method signature="scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Test Flipkart" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- P2 -->
+    </groups>
+    <test name="BDD Test" duration-ms="65341" started-at="2018-02-21T09:21:19Z" finished-at="2018-02-21T09:22:25Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Test Flipkart" name="setupSuit" is-config="true" duration-ms="37" started-at="2018-02-21T14:51:19Z" finished-at="2018-02-21T14:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@475e586c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Test Flipkart" name="setupTest" is-config="true" duration-ms="1" started-at="2018-02-21T14:51:19Z" finished-at="2018-02-21T14:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@475e586c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Test Flipkart" name="setup" is-config="true" duration-ms="1" started-at="2018-02-21T14:51:19Z" finished-at="2018-02-21T14:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@475e586c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Test Flipkart" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-02-21T14:51:19Z" finished-at="2018-02-21T14:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@475e586c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Test Flipkart" name="Test Flipkart" duration-ms="62914" started-at="2018-02-21T14:51:19Z" description="Basic verification of flipkart app" finished-at="2018-02-21T14:52:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on the landinPage and selects close signup</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then is user in on the homepage and searches for 'ipad'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user sorts the produts in low to high price order</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user selects the prdouct from the list of available products</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;3&gt; was greater than &lt;0&gt; <a href="../img/Test Flipkart_u9l0cepotl1729195.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user adds the product to its  cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>product Name verification
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)" <a href="../img/Test Flipkart_1wdiwvkh7fx2k29196.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user navigates to cart page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>carts-product Name verification
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)" <a href="../img/Test Flipkart_1my72fldpc0ip29197.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test Flipkart -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Test Flipkart" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-21T14:52:22Z" finished-at="2018-02-21T14:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@475e586c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test Flipkart status=SUCCESS method=scenarios.flipkartbasicTest.bdd.Test Flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on the landinPage and selects close signup</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then is user in on the homepage and searches for 'ipad'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user sorts the produts in low to high price order</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user selects the prdouct from the list of available products</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;3&gt; was greater than &lt;0&gt; <a href="../img/Test Flipkart_u9l0cepotl1729195.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user adds the product to its  cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>product Name verification
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)" <a href="../img/Test Flipkart_1wdiwvkh7fx2k29196.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user navigates to cart page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>carts-product Name verification
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only (Space Grey)" <a href="../img/Test Flipkart_1my72fldpc0ip29197.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Test Flipkart" name="afterClass" is-config="true" duration-ms="0" started-at="2018-02-21T14:52:22Z" finished-at="2018-02-21T14:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@475e586c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Test Flipkart" name="afterTest" is-config="true" duration-ms="2391" started-at="2018-02-21T14:52:22Z" finished-at="2018-02-21T14:52:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@475e586c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Test Flipkart" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-02-21T14:52:25Z" finished-at="2018-02-21T14:52:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@475e586c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

@@ -1,0 +1,3 @@
+addtocart.productname = {\"locator\":\"xpath=//android.view.View[@content-desc='Apple iPad 32 GB 9.7 inch with Wi-Fi Only']\",\"desc\":\"product name\"}
+addtocart.productprice = {\"locator\":\"xpath=//android.view.View[@content-desc=\\\"\u20B922,400\u20B928,00020% off\\\"]\",\"desc\":\"product price with discount details\"}
+addtocart.continue.btn = {\"locator\":\"accessibility id=CONTINUE\",\"desc\":\"continue button\"}
